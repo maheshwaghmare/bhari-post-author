@@ -1,0 +1,34 @@
+.bhari-post-author-author-box {
+    margin: 2em 0;
+	
+	> div {
+	    padding: 2em;
+	    border: 1px solid #eaeaea;
+	}
+
+	.ui-tabs-nav {
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+
+		li {
+		    display: inline-block;
+			
+			> a {
+			    padding: 1em;
+			    border: 1px solid #eaeaea;
+			    border-radius: 0.5em 0.5em 0 0;
+			    border-bottom-color: transparent;
+			    display: inline-block;
+			    text-decoration: none;
+			}
+
+			.ui-state-active a,
+			:hover a {
+			    background: #eaeaea;
+			    color: #555;
+			}
+		}
+	}
+	
+}
